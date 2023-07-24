@@ -65,7 +65,7 @@ def test(model, device, test_loader):
 
 def main():
     device = torch.device("cpu")
-    epnum = 50
+    epnum = 5
 
     transform=transforms.Compose([
         transforms.ToTensor(),
